@@ -7,3 +7,5 @@ Host triassic
 	Hostname triassic.dinocore.net
 Host fossil
 	Hostname fossil.dinocore.net
+Host relic
+	Hostname relic.dinocore.net
