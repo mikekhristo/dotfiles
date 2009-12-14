@@ -1,0 +1,13 @@
+= Dot Files
+
+These are my configuration files.
+
+== Installation
+
+  git clone git://github.com/cjab/dotfiles ~/.dotfiles
+  cd ~/.dotfiles
+  rake install
+
+== Credits
+
+Rake task based off of ryanb's dotfiles install task

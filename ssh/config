@@ -1,0 +1,9 @@
+Host *
+	ServerAliveInterval 60
+Host raptor
+	Hostname raptor.dinocore.net
+	Port 1522
+Host triassic
+	Hostname triassic.dinocore.net
+Host fossil
+	Hostname fossil.dinocore.net

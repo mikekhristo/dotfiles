@@ -1,0 +1,9 @@
+[user]
+	name = Chad Jablonski
+	email = chad@dinocore.net
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = matching
