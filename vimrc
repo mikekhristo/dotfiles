@@ -1,4 +1,4 @@
-color desert
+color twilight
 syn on
 set ai
 set si
