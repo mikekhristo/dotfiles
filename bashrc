@@ -100,6 +100,17 @@ if [[ -n $PS1 ]] ; then
 	
 	export AUTOFEATURE=true
 	export RSPEC=true
+
+	alias ll='ls -lha'
+
+	# git
+	alias st='git status'
+	alias br='git branch'
+	alias ci='git commit'
+	alias co='git checkout'
+	alias pull='git pull'
+	alias push='git push'
+	alias add='git add'
 fi
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 #EOF .bashrc

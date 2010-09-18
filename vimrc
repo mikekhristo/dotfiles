@@ -5,6 +5,7 @@ set si
 set tabstop=4
 set shiftwidth=4
 set visualbell t_vb=
+set columns=80
 map <C-n> :tabn<CR>
 map <C-p> :tabp<CR>
 map <C-t> :tabnew<CR>
