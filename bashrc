@@ -98,6 +98,7 @@ if [[ -n $PS1 ]] ; then
 	    . /etc/bash_completion
 	fi
 	
+	export TERM=xterm-256color
 	export AUTOFEATURE=true
 	export RSPEC=true
 fi
