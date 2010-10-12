@@ -101,6 +101,8 @@ if [[ -n $PS1 ]] ; then
 	export TERM=xterm-256color
 	export AUTOFEATURE=true
 	export RSPEC=true
+	export EC2_PRIVATE_KEY=$HOME/.ec2/pk.pem
+	export EC2_CERT=$HOME/.ec2/cert.pem
 
 	alias ll='ls -lha'
 
