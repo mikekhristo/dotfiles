@@ -12,7 +12,7 @@ map <C-t> :tabnew<CR>
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
-autocmd FileType ruby,eruby,xhtml,css,haml,scss,sass,yaml,cucumber
+autocmd FileType ruby,eruby,xhtml,css,haml,scss,sass,yaml,cucumber,javascript
 	\ setlocal expandtab |
 	\ setlocal shiftwidth=2 |
 	\ setlocal tabstop=2
