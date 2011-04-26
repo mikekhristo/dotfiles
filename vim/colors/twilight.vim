@@ -112,3 +112,7 @@ hi Search guifg=#606000 guibg=#c0c000 gui=bold
 hi Directory guifg=#dad085 gui=NONE
 hi Error guibg=#602020
 
+hi NonText guifg=#4a4a59
+hi NonText guibg=#1a1a1a
+hi SpecialKey guifg=#4a4a59
+hi OverLength ctermbg=red ctermfg=white guibg=#592929
