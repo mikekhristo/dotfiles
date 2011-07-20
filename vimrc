@@ -1,7 +1,10 @@
+filetype off
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
 color twilight
 
-syn on
-filetype plugin on
+syn on filetype plugin on
 
 set ai
 set si
