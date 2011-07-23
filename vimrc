@@ -1,3 +1,6 @@
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+
 filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
@@ -5,11 +8,11 @@ call pathogen#runtime_append_all_bundles()
 color twilight
 
 syn on filetype plugin on
-
 set ai
 set si
-set tabstop=4
-set shiftwidth=4
+set expandtab
+set tabstop=2
+set shiftwidth=2
 set nowrap
 set visualbell t_vb=
 
@@ -33,12 +36,12 @@ set pastetoggle=<leader>p
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
-autocmd FileType ruby,eruby,xhtml,css,haml,scss,sass,yaml,cucumber,javascript,mustache,html,less
-	\ setlocal expandtab |
-	\ setlocal shiftwidth=2 |
-	\ setlocal tabstop=2
-
 autocmd FileType python
-	\ setlocal expandtab |
-	\ setlocal shiftwidth=4 |
-	\ setlocal tabstop=4
+  \ setlocal expandtab |
+  \ setlocal shiftwidth=4 |
+  \ setlocal tabstop=4
+
+autocmd FileType php
+  \ setlocal noexpandtab |
+  \ setlocal shiftwidth=4 |
+  \ setlocal tabstop=4
