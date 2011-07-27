@@ -1,16 +1,18 @@
 filetype off
 
 let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=0
-let g:syntastic_jslint_conf=""
 
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 filetype plugin indent on
 syn on
 
 color twilight
+
+syn on filetype plugin on
+filetype plugin indent on
 
 set ai
 set si
@@ -35,6 +37,8 @@ map <C-t> :tabnew<CR>
 map <leader>n :NERDTreeToggle<CR>
 map <leader>v :tabedit $MYVIMRC<CR>
 map <leader>s :setlocal spell spelllang=en_us<CR>
+map <leader>b :Gblame
+map <leader>w :%s/\s\+$//e<CR>
 set pastetoggle=<leader>p
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
