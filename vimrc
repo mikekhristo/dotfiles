@@ -1,12 +1,17 @@
-let g:syntastic_enable_signs=1
-
 filetype off
+
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=0
+let g:syntastic_jslint_conf=""
+
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
+filetype plugin indent on
+syn on
+
 color twilight
 
-syn on filetype plugin on
 set ai
 set si
 set expandtab
@@ -34,6 +39,8 @@ set pastetoggle=<leader>p
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+autocmd BufWritePost *.coffee silent CoffeeMake!
 
 autocmd FileType python
   \ setlocal expandtab |
