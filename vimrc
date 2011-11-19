@@ -6,9 +6,6 @@ call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 call pathogen#infect()
 
-filetype plugin indent on
-syn on
-
 color twilight
 
 syn on filetype plugin on
@@ -28,7 +25,6 @@ highlight NonText guifg=#4a4a59
 highlight NonText guibg=#1a1a1a
 highlight SpecialKey guifg=#2c2c35
 
-let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 let mapleader = ','
 
 map <C-n> :tabn<CR>
@@ -45,7 +41,7 @@ set clipboard=unnamed
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
-autocmd BufWritePost *.coffee silent CoffeeMake!
+"autocmd BufWritePost *.coffee silent CoffeeMake!
 
 autocmd FileType python
   \ setlocal expandtab |
