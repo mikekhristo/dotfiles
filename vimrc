@@ -40,6 +40,7 @@ map <leader>s :setlocal spell spelllang=en_us<CR>
 map <leader>b :Gblame
 map <leader>w :%s/\s\+$//e<CR>
 set pastetoggle=<leader>p
+set clipboard=unnamed
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
