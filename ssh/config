@@ -1,8 +1,0 @@
-Host *
-	ServerAliveInterval 60
-Host triassic
-	Hostname triassic.dinocore.net
-Host relic
-	Hostname relic.dinocore.net
-Host jurassic
-	Hostname jurassic.dinocore.net

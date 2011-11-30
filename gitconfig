@@ -1,13 +1,13 @@
 [user]
-	name = Chad Jablonski
-	email = chad@dinocore.net
+	name = Mike Khristo
+	email = mike@grapheffect.com
+[github]
+	user = mikekhristo
+	token = d3d1d1afc0470502dc9eeb993b266876
 [color]
 	diff = auto
 	status = auto
 	branch = auto
 [push]
 	default = matching
-[github]
-	user = cjab
-[core]
-	excludesfile = /home/cjab/.gitignore
+
