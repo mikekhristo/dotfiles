@@ -4,7 +4,7 @@ These are my configuration files.
 
 == Installation
 
-  git clone git://github.com/cjab/dotfiles ~/.dotfiles
+  git clone git://github.com/mikekhristo/dotfiles ~/.dotfiles
   cd ~/.dotfiles
   rake install
 
